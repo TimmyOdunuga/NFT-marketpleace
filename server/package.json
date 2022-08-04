@@ -1,0 +1,43 @@
+{
+  "name": "flashlabs-nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd src && nodemon index",
+    "start": "cd src && node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitrical-contract/flashlabs-nft.git"
+  },
+  "author": "Elijah Lipsky",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/vitrical-contract/flashlabs-nft/issues"
+  },
+  "homepage": "https://github.com/vitrical-contract/flashlabs-nft#readme",
+  "dependencies": {
+    "@fl-did-registry/did-ipfs-store": "^0.5.2",
+    "@fl-did-registry/did-nft-resolver": "^0.5.6",
+    "@fl-did-registry/jwt": "^0.5.2",
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "crypto-price": "0.0.6",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "ethers": "^5.4.7",
+    "express": "^4.17.1",
+    "express-ipfilter": "^1.2.0",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.0.9",
+    "mongoose-paginate-v2": "^1.4.2",
+    "morgan": "^1.10.0",
+    "sharp": "^0.29.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
